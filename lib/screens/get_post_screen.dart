@@ -47,6 +47,8 @@ class _GetPostScreenState extends State<GetPostScreen> {
                             children: [
                               Text(postsList[index].title!),
                               Text(postsList[index].body!),
+                              Text("${postsList[index].id}"),
+                              Text("${postsList[index].body}"),
                             ],
                           ),
                         ),
